@@ -1,0 +1,408 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.header {
+  display: block;
+  padding: 3vh;
+  margin-left: -1.3vh;
+  color: white;
+  font-size: 8px;
+  background-color: #1c1e53;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: -2vh;
+}
+
+.contact-us {
+  background-color: #1c1e53;
+  border-radius: 12vh;
+  color: white;
+  border: 1px solid #ffff;
+  font-size: 1vh;
+  margin-left: 34vh;
+  margin-top: -2vh;
+  position: absolute;
+  cursor: pointer;
+}
+
+.navbar {
+  float: right;
+  margin-right: 8vh;
+  margin-top: -2vh;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1c1e53;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  margin: 4px;
+
+  text-decoration: none;
+}
+
+.about-us-up {
+  margin-top: 15vh;
+  padding-left: 18vh;
+  padding-right: 18vh;
+}
+.about-us-up h6 {
+  font-size: clamp(8px, 1.6vw, 12px);
+}
+
+.about-us-up h2 {
+  font-size: clamp(12px, 1.6vw, 22px);
+}
+
+.about-us-up p {
+  font-size: clamp(12px, 1.6vw, 18px);
+}
+
+.about-us-up img {
+  max-width: 100%;
+  height: auto;
+  float: right;
+  margin-top: -26vh;
+}
+
+.who {
+  margin-top: 40vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.who h6 {
+  font-size: clamp(8px, 1.6vw, 12px);
+}
+
+.who h2 {
+  font-size: clamp(12px, 1.6vw, 22px);
+}
+
+.who p {
+  font-size: clamp(12px, 1.6vw, 18px);
+}
+
+.card2 {
+  margin-top: 6.1vh;
+  margin-left: 30vh;
+}
+
+.man {
+  margin-top: 15vh;
+  display: flex;
+  justify-content: center;
+}
+.man img {
+  max-width: 100%;
+  height: auto;
+}
+
+.process {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: row;
+  column-gap: 6vh;
+  justify-content: center;
+}
+.process h2 {
+  font-size: clamp(12px, 1.6vw, 22px);
+}
+.process p {
+  font-size: clamp(12px, 1.6vw, 18px);
+}
+.process-text {
+  margin-top: -10vh;
+  position: absolute;
+  font-size: clamp(12px, 1.6vw, 22px);
+}
+.process img {
+  max-width: 100%;
+  height: auto;
+}
+.our-plan {
+  display: flex;
+  background-color: #eef4fa;
+  column-gap: 25vh;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15vh;
+}
+.our-plan img {
+  max-width: 100%;
+  height: auto;
+}
+.our-plan h6 {
+  font-size: clamp(8px, 1.6vw, 12px);
+}
+
+.our-plan h2 {
+  font-size: clamp(12px, 1.6vw, 22px);
+}
+
+.our-plan p {
+  font-size: clamp(12px, 1.6vw, 18px);
+}
+.benefits {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  column-gap: 20vh;
+}
+
+.benefits-text {
+  position: absolute;
+  margin-top: -15vh;
+  font-size: clamp(12px, 1.3vw, 15px);
+}
+.benefits h6 {
+  font-size: clamp(8px, 1.6vw, 12px);
+}
+.benefits p {
+  font-size: clamp(12px, 1.6vw, 18px);
+}
+.benefits img {
+  max-width: 100%;
+  height: auto;
+}
+.logos {
+  margin-top: 10vh;
+  display: flex;
+  column-gap: 5vh;
+  justify-content: center;
+}
+.logo-ex {
+  margin-top: 1.2vh;
+}
+.logos img {
+  max-width: 100%;
+  height: auto;
+}
+.our-team {
+  display: flex;
+  margin-top: 25vh;
+  background-color: #eef4fa;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  text-align: center;
+  column-gap: 22vh;
+}
+.our-team-text {
+  margin-top: -18vh;
+  position: absolute;
+  font-size: clamp(12px, 1.3vw, 15px);
+}
+.our-team-card1,
+.our-team-card2,
+.our-team-card3,
+.our-team-card4 {
+  margin-top: 7vh;
+  background-color: #ffff;
+  height: 40vh;
+  width: 40vh;
+}
+.our-team img {
+  max-width: 100%;
+  height: auto;
+}
+.our-team h6 {
+  font-size: clamp(8px, 1.6vw, 12px);
+}
+.our-team p {
+  font-size: clamp(12px, 1.6vw, 18px);
+}
+footer {
+  background: #1c1e53;
+
+  width: 95vw;
+  margin-top: 15vh;
+  margin-left: 1vh;
+  padding-top: 40px;
+  color: #ffff;
+  box-sizing: border-box;
+}
+.footer-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-head h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-head p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+}
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+}
+.socials a:hover i {
+  color: aqua;
+}
+
+.footer-bottom {
+  background: #fff;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: black;
+  float: left;
+  margin-left: 6vh;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom p a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+.f-menu a {
+  color: black;
+}
+.f-menu {
+  background: #fff;
+}
+
+.footer-menu {
+  float: right;
+  margin-right: 5vh;
+}
+
+.footer-menu ul {
+  display: flex;
+}
+
+.footer-menu ul li {
+  padding-right: 10px;
+  display: block;
+}
+
+.footer-menu ul li a {
+  text-decoration: none;
+}
+@media screen and (max-width: 520px) {
+  .our-team {
+    flex-direction: column;
+  }
+  .our-team-text {
+    margin-top: -210vh;
+    margin-left: 15vh;
+  }
+  .our-team-card1,
+  .our-team-card2,
+  .our-team-card3,
+  .our-team-card4 {
+    margin-left: 15vh;
+  }
+  .benefits-text {
+    margin-top: -78vh;
+    margin-left: -8vh;
+  }
+  .benefits {
+    flex-direction: column;
+    margin-left: 30vh;
+    row-gap: 5vh;
+  }
+  .our-plan {
+    flex-direction: column;
+  }
+  .process-text {
+    margin-top: -78vh;
+  }
+  .process {
+    flex-direction: column;
+  }
+  .who {
+    flex-direction: column;
+    margin-left: 19vh;
+  }
+
+  .card2 {
+    margin-left: 0vh;
+  }
+}
+@media (max-width: 1500px) {
+  .about-us-up img {
+    margin-top: 5vh;
+  }
+}
+
+@media (min-width: 1025px) {
+  .header {
+    font-size: 15px;
+  }
+
+  .header2 {
+    height: 30vh;
+  }
+
+  .finsweet {
+    margin-top: 3vh;
+    font-size: 20px;
+    margin-left: 16vh;
+  }
+  .contact-us {
+    position: relative;
+    font-size: 15px;
+    margin-left: 1vh;
+    margin-top: 0.5vh;
+  }
+  .navbar {
+    display: flex;
+  }
+}
